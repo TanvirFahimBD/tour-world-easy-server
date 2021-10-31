@@ -7,7 +7,7 @@ const ObjectId = require("mongodb").ObjectId;
 const app = express();
 const port = process.env.PORT || 8000;
 
-//middleware
+//middleware here
 app.use(cors());
 app.use(express.json());
 
@@ -79,7 +79,7 @@ async function run() {
       res.json(result);
     });
   } finally {
-    await client.close();
+    // await client.close();
   }
 }
 run().catch(console.dir);
