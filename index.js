@@ -88,9 +88,6 @@ run().catch(console.dir);
 app.get("/", (req, res) => {
   res.send("Hello from Tour Server");
 });
-app.get("/hello", (req, res) => {
-  res.send("Fahim own Server");
-});
 
 app.listen(port, () => {
   console.log(`Listening Tour Server to port:${port}`);
