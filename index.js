@@ -7,7 +7,7 @@ const ObjectId = require("mongodb").ObjectId;
 const app = express();
 const port = process.env.PORT || 8000;
 
-//middleware here
+//middleware
 app.use(cors());
 app.use(express.json());
 
@@ -21,6 +21,7 @@ const client = new MongoClient(uri, {
 async function run() {
   try {
     await client.connect();
+    console.log("Connected to database");
     const database = client.db("tourWorld");
     const servicesCollection = database.collection("bookings");
 
