@@ -1,12 +1,10 @@
-### Live Firebase Link: https://tour-world-easy.web.app/
+### Live Site: https://tour-world-easy.web.app/
 
-### Live Server Side Link: https://ghoulish-barrow-74132.herokuapp.com/
+### Live Server(API): https://ghoulish-barrow-74132.herokuapp.com/
 
 ---
 
-### Client Side Github Link: https://github.com/programming-hero-web-course1/tourism-or-delivery-website-client-side-TanvirFahimBD
-
-### Server Side Link: https://github.com/programming-hero-web-course1/tourism-or-delivery-website-server-side-TanvirFahimBD
+### Client Repo: https://github.com/TanvirFahimBD/tour-world-easy-client
 
 ---
 
@@ -25,8 +23,8 @@
 ## Core Used Technologies:
 
 <li>React</li>
-<li>firebase</li>
-<li>react router</li>
-<li>node JS</li>
-<li>express</li>
-<li>mongodb</li>
+<li>Firebase</li>
+<li>React router</li>
+<li>Node JS</li>
+<li>Express</li>
+<li>Mongodb</li>
